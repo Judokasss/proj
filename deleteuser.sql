@@ -1,0 +1,8 @@
+SET GLOBAL event_scheduler = ON;
+
+CREATE EVENT DelUsers
+ON SCHEDULE EVERY 1 MINUTE
+DO
+DELETE FROM users WHERE confirmed = 'inactive' AND date1 <= DATE_SUB(NOW(), INTERVAL 24 HOUR);
+
+DROP EVENT DelUsers

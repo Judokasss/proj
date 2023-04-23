@@ -1,0 +1,212 @@
+body {
+    margin: auto;
+    width: 100%;
+    max-width: 900px;
+    height: 100%;
+    max-height: 600px;
+    background:rgb(49, 45, 45)
+}
+.yolo{
+    margin: 15%;
+    
+}
+input{
+    padding: 5px;
+    margin-top: 10px;
+    margin-right: -12px;
+}
+textarea{
+    padding: 5px;
+    margin-top: 10px;
+    margin-right: -12px;
+    resize: none;
+    height: 20px;
+}
+.glow-button {
+    text-decoration: none;
+    display: inline-block;
+    padding: 7px 20px;
+    margin: 5px 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 40px 40px #e7a007 inset, 0 0 0 0 #37f169;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: rgb(203, 29, 29);
+    transition: .15s ease-in-out;
+    }
+.glow-button:hover {
+    color: #d5f137;
+}
+.name{
+    padding: 5px;
+    margin-top: 20px;
+    color: #e7a007;
+    text-align: left;
+}
+.message{
+    color: aqua;
+    text-align: left;
+    
+}
+.date{
+    color: rgb(53, 178, 19);
+    margin-left: 814px;
+   
+}
+hr {
+  border: 1px solid rgb(17, 200, 157);
+  border-bottom-width: 0;
+}
+.error{
+    color: red;
+    font-size: 20px;
+}
+
+.img{
+    margin-right:1155px;
+    padding-top: -111px;
+}
+h2{
+    font-size: 25px;
+    color: #b562fa;
+    text-align: center;
+}
+.opo{
+    border: 2px solid;
+    border-image: linear-gradient(to right, purple, pink) 1;
+}
+.count{
+    font-size: 15px;
+    color: #01f7c2;
+    text-align: right;
+}
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+th,td{
+    font-size: 18px;
+    padding: 10px;
+}
+th{
+    background: #b562fa;
+    color:rgb(18, 234, 227);
+}
+td{
+    background: #01f7c2;
+}
+a{
+    text-decoration: none;
+    transition: 0.2s ease;
+    color:whitesmoke ;
+}
+td:nth-child(7) > a{
+    color: red;
+}
+a:hover{
+    opacity: 0.7;
+}
+p{
+    font-size: italic;
+    font-size: 14px;
+    padding: 0px;
+    margin: 0px;
+    color: #57d8c0;
+    align-items: center;
+}
+input,textarea,button{
+    padding: 10px;
+    display: block;
+    min-height: 30px;
+    width: 250px;
+    margin-bottom: 10px;
+}
+textarea{
+    resize: vertical;
+    height: 80px;
+}
+button{
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+.cap{
+    border: 3px solid;
+    width: 106px;
+    height: 66px;
+}
+.rega{
+    font-size: 22px;
+}
+h1{
+    color: rgb(207, 68, 68);
+}
+.btn {
+	margin-right: -11px;	
+	border: 1px solid #fff;
+	border-radius: 50px;
+	font-size: 14px;
+	font-weight: 600;
+	text-decoration: none;
+	color: #444;
+	background-color: #fff;
+	box-shadow: 0 4px 6px rgb(65 132 144 / 10%), 0 1px 3px rgb(0 0 0 / 8%);
+	cursor: pointer;
+	user-select: none;
+	appearance: none;
+	touch-action: manipulation;  
+	vertical-align: top;
+	transition: box-shadow 0.2s;
+    margin: 10px;
+}
+.btn:focus-visible {
+	border: 1px solid #4c51f9;
+	outline: none;
+}
+.btn:hover {
+	transition: all 0.2s;
+	box-shadow: 0 7px 14px rgb(65 132 144 / 10%), 0 3px 6px rgb(0 0 0 / 8%);
+}
+.btn:active {
+	background-color: #a52b2b;
+}
+.btn:disabled {
+	background-color: #eee;
+	border-color: #eee;
+	color: #444;
+	cursor: not-allowed;
+}
+.bord{
+    border: 5px solid;
+    border-image: linear-gradient(to right, rgb(211, 30, 30), rgb(184, 85, 23)) 1;
+    margin: 0 auto;
+    width: 320px; /*задаем ширину блока*/
+    max-height:490px; /*задаем высоту блока*/
+    transform: translate(-50%, -50%);
+    position: absolute; 
+    top: 50%; 
+    left: 50%;
+}
+.bord1{
+    border: 5px solid;
+    border-image: linear-gradient(to right, rgb(211, 30, 30), rgb(184, 85, 23)) 1;
+    margin: 0 auto;
+    width: 320px; /*задаем ширину блока*/
+    min-height:620px; /*задаем высоту блока*/
+    max-height:650px; /*задаем высоту блока*/
+    transform: translate(-50%, -50%);
+    position: absolute; 
+    top: 50%; 
+    left: 50%;
+}
+.acolor{
+    color: #1bb945;
+    border: 2px solid;
+    border-image: linear-gradient(to right, rgb(130, 18, 121), rgb(15, 70, 197)) 1;
+    
+}
+.forget{
+    font-size: 15px;
+    color: #0ec98b;
+}
